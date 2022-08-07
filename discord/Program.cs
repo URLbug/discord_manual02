@@ -27,7 +27,7 @@ namespace discord_manual
                 {
                     var configuation = new ConfigurationBuilder()
                     .SetBasePath(Directory.GetCurrentDirectory())
-                    .AddJsonFile("appsettings.json", false, true)
+                    .AddJsonFile("discord/appsettings.json", false, true)
                     .Build();
                     x.AddConfiguration(configuation);
                 })
